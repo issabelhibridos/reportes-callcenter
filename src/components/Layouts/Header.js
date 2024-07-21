@@ -9,7 +9,7 @@ export const Header = () => {
     const [searchSection, setSearchSection] = useState(false);
     const [dropdown, setDropdown] = useState(false);
     const token = JSON.parse(sessionStorage.getItem("token"));
-    const { cartList } = useCart();
+    // const { cartList } = useCart();
 
     useEffect(() => {
         localStorage.setItem("darkMode", JSON.stringify(darkMode))
