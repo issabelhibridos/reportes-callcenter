@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { Search } from "../Sections/Search";
 import { DropdownLoggedOut, DropdownLoggedIn } from "../../components"
-import { useCart } from "../../context";
+// import { useCart } from "../../context";
 
 export const Header = () => {
     const [darkMode, setDarkMode] = useState((JSON.parse(localStorage.getItem("darkMode"))) || false);
