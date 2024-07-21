@@ -2,9 +2,8 @@ export async function reportAuth() {
 
     const requestOptions = {
         method: "GET",
-        headers: { "content-Type": "application/json", Authorization: `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjE0MzkyOTIsImV4cCI6MTcyMTQ0Mjg5MiwiZGF0YSI6eyJuYW1lIjoiYWRtaW4ifX0.l-OKpvB_spwQJn_Dr6T4gnWvL2aMthFq-vWRQ8OSfYM` },
+        headers: { "content-Type": "application/json", Authorization: `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjE1MzYzNjMsImV4cCI6MTcyMTUzOTk2MywiZGF0YSI6eyJuYW1lIjoiYWRtaW4ifX0.I5jOjWgUsyFRwDXvmZBkgR7JkUCmQVFNKJ8rlF3FJD8` },
         // method: "POST",
-        // headers: { "content-Type": "application/json" },
         // body: { user: "admin", password: "N0m3l4s3" },
     }
 
